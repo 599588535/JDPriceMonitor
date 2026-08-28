@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">京东价格监控</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">价格监控</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_start_monitoring">开始监控</string>
+    <string name="menu_stop_monitoring">停止监控</string>
+    <string name="no_products">暂无监控商品</string>
+    <string name="last_checked">最后检查</string>
+    
+    <!-- Add Product Activity -->
+    <string name="title_add_product">添加商品</string>
+    <string name="hint_product_name">商品名称</string>
+    <string name="hint_product_url">商品链接</string>
+    <string name="btn_check_price">检查当前价格</string>
+    <string name="hint_target_price">目标价格</string>
+    <string name="hint_email">邮箱地址（用于价格提醒）</string>
+    <string name="wechat_notify">启用微信通知</string>
+    <string name="btn_test_notification">测试通知</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    
+    <!-- Product Detail Activity -->
+    <string name="title_product_detail">商品详情</string>
+    <string name="btn_open_in_browser">在浏览器中打开</string>
+    <string name="btn_check_price_now">立即检查价格</string>
+    <string name="btn_save_changes">保存更改</string>
+    <string name="btn_delete_product">删除商品</string>
+    <string name="btn_back_to_main">返回主界面</string>
+    <string name="current_price">当前价格</string>
+    <string name="target_price">目标价格</string>
+    <string name="price_drop">价格下降</string>
+    <string name="monitor_status">监控状态</string>
+    <string name="last_checked_time">最后检查</string>
+    <string name="email_address">邮箱地址</string>
+    <string name="wechat_notification">微信通知</string>
+    <string name="notification_enabled">启用价格提醒通知</string>
+    
+    <!-- Settings Activity -->
+    <string name="title_settings">设置</string>
+    <string name="monitoring_settings">监控设置</string>
+    <string name="monitoring_status">监控状态</string>
+    <string name="active_products">监控商品数</string>
+    <string name="auto_monitoring">自动监控</string>
+    <string name="monitoring_frequency">监控频率: 每2小时</string>
+    <string name="data_management">数据管理</string>
+    <string name="clear_all_data">清除所有数据</string>
+    <string name="clear_data_warning">⚠️ 此操作将删除所有监控商品和设置，无法恢复</string>
+    <string name="app_info">应用信息</string>
+    <string name="check_updates">检查更新</string>
+    <string name="about_app">关于应用</string>
+    <string name="back_to_main">返回主界面</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">价格提醒</string>
+    <string name="notification_channel_description">商品价格变化提醒</string>
+    <string name="notification_title">价格提醒</string>
+    <string name="notification_content">商品价格降至目标价格</string>
+    
+    <!-- Messages -->
+    <string name="product_added">商品添加成功</string>
+    <string name="product_updated">商品更新成功</string>
+    <string name="product_deleted">商品删除成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="check_price_failed">检查价格失败</string>
+    <string name="send_notification_failed">发送通知失败</string>
+    <string name="network_error">网络错误</string>
+    <string name="invalid_url">无效的链接</string>
+    <string name="invalid_price">无效的价格</string>
+    <string name="invalid_email">无效的邮箱地址</string>
+    <string name="monitoring_started">价格监控已启动</string>
+    <string name="monitoring_stopped">价格监控已停止</string>
+    <string name="monitoring_running">监控运行中</string>
+    <string name="monitoring_stopped_text">监控已停止</string>
+    <string name="checking_price">正在检查价格...</string>
+    <string name="price_updated">价格已更新</string>
+    <string name="unable_get_price">无法获取价格信息</string>
+    <string name="test_notification_sent">测试通知已发送</string>
+    <string name="test_notification_failed">测试失败</string>
+    <string name="clear_data_confirm">确定要清除所有数据吗？此操作无法恢复。</string>
+    <string name="clear_data_success">所有数据已清除</string>
+    <string name="clear_data_failed">清除数据失败</string>
+    
+    <!-- About -->
+    <string name="about_title">关于应用</string>
+    <string name="about_version">版本: v1.0</string>
+    <string name="about_description">京东价格监控应用</string>
+    <string name="about_features">功能特点：</string>
+    <string name="feature_1">• 监控京东商品价格变化</string>
+    <string name="feature_2">• 支持自定义目标价格</string>
+    <string name="feature_3">• 邮件和微信价格提醒</string>
+    <string name="feature_4">• 定时自动检查价格</string>
+    <string name="about_usage">使用说明：</string>
+    <string name="usage_1">1. 点击右下角按钮添加商品</string>
+    <string name="usage_2">2. 设置目标价格和通知方式</string>
+    <string name="usage_3">3. 系统会自动监控价格变化</string>
+    <string name="usage_4">4. 价格达到目标时会发送通知</string>
+    <string name="about_notes">注意事项：</string>
+    <string name="note_1">• 请勿频繁刷新页面</string>
+    <string name="note_2">• 建议开启通知以获取提醒</string>
+    <string name="note_3">• 请遵守京东平台使用条款</string>
+    <string name="about_copyright">© 2024 JDPriceMonitor</string>
+    
+    <!-- Common -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="loading">加载中...</string>
+    <string name="error">错误</string>
+    <string name="success">成功</string>
+    <string name="warning">警告</string>
+    <string name="info">信息</string>
+</resources>

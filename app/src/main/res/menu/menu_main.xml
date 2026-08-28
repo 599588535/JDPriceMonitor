@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="刷新"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="设置"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_start_monitoring"
+        android:title="开始监控"
+        android:icon="@drawable/ic_start"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_stop_monitoring"
+        android:title="停止监控"
+        android:icon="@drawable/ic_stop"
+        app:showAsAction="never" />
+
+</menu>
